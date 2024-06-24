@@ -37,6 +37,7 @@ function flipCard() {
     firstCard.getAttribute("data-letter") === this.getAttribute("data-letter")
   ) {
     // It's a match!
+
     setTimeout(() => {
       firstCard.classList.add("matched");
       this.classList.add("matched");
@@ -44,6 +45,7 @@ function flipCard() {
     }, 500);
   } else {
     // Not a match
+
     setTimeout(() => {
       firstCard.classList.remove("flipped");
       this.classList.remove("flipped");
