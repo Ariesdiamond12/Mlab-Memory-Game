@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+#message-area {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.tiles {
+  margin: 48px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 16px;
+}
+
+.tile {
+  height: 100px;
+  background-color: #007bff;
+  cursor: pointer;
+  border-radius: 8px;
+}
